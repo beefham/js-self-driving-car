@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Self driving car</title>
+    <!-- https://www.youtube.com/watch?v=Rs_rAxEsAvI&ab_channel=freeCodeCamp.org -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="carCanvas"></canvas>
+    <canvas id="netCanvas"></canvas>
+    <div id="verticalButtons">
+        <button onclick="saveBestCar()">💾</button>
+        <button onclick="discard()">🗑️</button>
+        <button onclick="mutate()">🧪</button>
+        <button id="btn-reset" onclick="reset(false)">🔁</button>
+        <button id="btn-reset" onclick="reset(true)">🆕</button>
+    </div>
+    <script src="utils.js"></script>
+    <script src="visualiser.js"></script>
+    <script src="network.js"></script>
+    <script src="sensor.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="main.js"></script>
+    
+</body>
